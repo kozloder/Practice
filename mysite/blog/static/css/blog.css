@@ -20,20 +20,6 @@ h2 {
     margin:30px 0 0;
 }
 
-#content { 
-    float:left;
-    width:60%;
-    padding:0 0 0 30px; 
-}
-
-#sidebar { 
-    float:right;
-    width:30%;
-    padding:10px;
-    background:#efefef; 
-    height:100%;
-}
-
 p.date { 
     color:#ccc;
     font-family: georgia, serif;
@@ -89,4 +75,37 @@ input[type=submit] {
     font-weight:bold;
     font-size:12px;
     color:#666;
+}
+
+/* content */
+.content {
+    font-size: bold 50px;
+    float:left;
+    width:60%;
+    padding:0 0 0 30px;
+    color: #ffffff;
+}
+
+
+/* header */
+.header {
+    color:#ffffff;
+    font-size: 70px;
+    float:right;
+    width:30%;
+    padding:10px;
+    height:100%;
+    font-family:arial;
+    position: center;
+
+    background-image: url('../images/background.jpeg');
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+/* blog_page */
+.blog_page {
+    background:#222222;
 }

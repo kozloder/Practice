@@ -1,17 +1,17 @@
 {% load static %}
 <!DOCTYPE html>
-<html>
+<html class = 'blog_page'>
 <head>
  <title>{% block title %}{% endblock %}</title>
  <link href="{% static "css/blog.css" %}" rel="stylesheet">
 </head>
 <body>
- <div id="content">
+ <div class = 'content' id="content">
  {% block content %}{% endblock %}
  </div>
- <div id="sidebar">
- <h2>Мой блог</h2>
-  <p>Это мой блог, здрастье!</p>
+ <div class = 'header' id="sidebar">
+ <h2>Страны мира</h2>
+  <p>и их описание</p>
  </div>
 </body>
 </html>
